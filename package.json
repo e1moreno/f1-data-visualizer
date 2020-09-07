@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
+    "deploy": "yarn run build && yarn run export",
     "start": "next start",
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
     "prettier:check": "prettier --check --ignore-path ./.eslintignore '**/*.{css,gql,graphql,html,js,jsx,json,md,mdx,ts,tsx,vue,yaml,yml}'",
@@ -14,6 +16,7 @@
   },
   "dependencies": {
     "@yarnpkg/pnpify": "^2.2.1",
+    "aws-amplify": "^3.1.1",
     "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1"
