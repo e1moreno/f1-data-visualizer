@@ -19,7 +19,11 @@
     "jsx": "preserve"
   },
   "include": [
+    ".eslintrc.js",
+    "lint-staged.config.js",
     "next-env.d.ts",
+    "prettier.config.js",
+    "README.md",
     "**/*.ts",
     "**/*.tsx"
   ],
