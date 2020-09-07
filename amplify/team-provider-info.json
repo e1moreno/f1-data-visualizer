@@ -10,6 +10,14 @@
             "StackName": "amplify-f1datavisualizer-dev-161033",
             "StackId": "arn:aws:cloudformation:us-east-1:287587054309:stack/amplify-f1datavisualizer-dev-161033/92a26200-f14e-11ea-8bf2-0ac49251e793",
             "AmplifyAppId": "d1nyhql1k7ba18"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1nyhql1k7ba18",
+                    "type": "cicd"
+                }
+            }
         }
     }
 }
